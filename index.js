@@ -7,17 +7,17 @@ function sayHey() {
 }
 
 function sayHeyFriend(name) {
-  return "Hey ${name}!";
+  return `Hey, ${name}!`;
 }
 
 function favoriteIceCream(icecream) {
-  return "I love ${icecream}"
+  return `I love ${icecream}`
 }
 
 function shouting(string) {
-  return "${string.toUpperCase}"
+  return `${string.toUpperCase}`
 }
 
 function roundDown(num) {
-  return "${num.floor}"
+  return `${num.floor}`
 }
